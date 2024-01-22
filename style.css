@@ -170,3 +170,17 @@ i {
   font-weight: 300;
   color: #eb4d4d;
 }
+
+.winner .player-score {
+  position: relative;
+}
+
+.winner .player-score::after {
+  content: " WINNER!";
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  font-weight: 500;
+}
