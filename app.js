@@ -48,7 +48,7 @@ document.querySelector(".btn-hold").addEventListener("click", function () {
       scores[activePlayer];
 
     // Ylaltiig shalgana
-    if (scores[activePlayer] >= 10) {
+    if (scores[activePlayer] >= 100) {
       // Togloomiig duussan tuluvt oruulna
       isGameOver = true;
 
